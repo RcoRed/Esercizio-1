@@ -1,8 +1,6 @@
-package store.model;
+package main.model.products;
 
-import store.Store;
-
-import java.util.ArrayList;
+import main.model.store.Store;
 
 public abstract class Products {
 //    instance variables
@@ -29,7 +27,7 @@ public abstract class Products {
         return this.price;
     }
     public String getProductType(){
-        return this.getProductType();
+        return this.productType;
     }
 //    methods
 

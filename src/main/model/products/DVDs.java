@@ -1,4 +1,4 @@
-package store.model;
+package main.model.products;
 
 public class DVDs extends Products{
 //    instance variables

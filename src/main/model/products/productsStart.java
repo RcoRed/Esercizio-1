@@ -1,8 +1,8 @@
-package store.model;
+package main.model.products;
 
-import store.Store;
+import main.model.store.Store;
 
-public class modelStart {
+public class productsStart {
     static Store store = new Store();
     public static void main(String[] args) {
 
@@ -20,10 +20,18 @@ public class modelStart {
         System.out.println(b2.getPages());
         System.out.println(b2.getWeight());
         System.out.println(b2.getISBN());
+        PadelRackets p1 = new PadelRackets("tito","goccia",5,200);
+        System.out.println("aggiunti!");
+        System.out.println(p1.getBrand());
+        System.out.println(p1.getPrice());
+        System.out.println(p1.getType());
+        System.out.println(p1.getWeight());
 
         System.out.println("in totale ci sono " + store.numberOfProducts() + " prodotti");
         System.out.println("il peso totale dei prodotti è " + store.totalWeight() + " kg");
         System.out.println("il più costoso vale " + store.mostExpensive() + "$");
+        System.out.println("sono presenti " + store.countBooksCategoryFantasy() + " libri Fantasy");
+        store.printArrayLists(store.SearchPadelRacketsDrop());
 
     }
 }

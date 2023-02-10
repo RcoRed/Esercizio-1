@@ -1,4 +1,4 @@
-package store;
+package main.model.store;
 
 public class StoreStart {
     public static void main(String[] args) {

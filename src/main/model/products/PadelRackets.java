@@ -1,4 +1,4 @@
-package store.model;
+package main.model.products;
 
 public class PadelRackets extends Products{
 //    instance variables
@@ -17,6 +17,9 @@ public class PadelRackets extends Products{
 //    getter
     public String getBrand(){
         return this.brand;
+    }
+    public String getType(){
+        return this.type;
     }
     public String getCategory(){
         return this.type;
