@@ -4,13 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3311f58-3580-4df9-ac8d-c424e70d76e3" name="Changes" comment="creo la gerarchia dei prodotti">
+    <list default="true" id="a3311f58-3580-4df9-ac8d-c424e70d76e3" name="Changes" comment="aggiungo i vari costruttori e i getter per ogni classe">
+      <change afterPath="$PROJECT_DIR$/src/store/Store.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/model/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/Books.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/model/DVDs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/DVDs.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/model/PadelRackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/PadelRackets.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/model/PadelRacketsRound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/PadelRacketsRound.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/store/model/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/Products.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/model/books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/Books.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/model/modelStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/modelStart.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,6 +45,26 @@
     "last_opened_file_path": "C:/Dev/Java/Projects/JavaBase/OOExamples"
   }
 }]]></component>
+  <component name="RunManager">
+    <configuration name="modelStart" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="store.model.modelStart" />
+      <module name="esercitazione-1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="store.model.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application.modelStart" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -67,12 +88,20 @@
       <option name="project" value="LOCAL" />
       <updated>1676045704591</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="aggiungo i vari costruttori e i getter per ogni classe">
+      <created>1676047456785</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1676047456785</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inizio progetto" />
     <MESSAGE value="creo la gerarchia dei prodotti" />
-    <option name="LAST_COMMIT_MESSAGE" value="creo la gerarchia dei prodotti" />
+    <MESSAGE value="aggiungo i vari costruttori e i getter per ogni classe" />
+    <option name="LAST_COMMIT_MESSAGE" value="aggiungo i vari costruttori e i getter per ogni classe" />
   </component>
 </project>

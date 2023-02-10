@@ -11,7 +11,7 @@ public class DVDs extends Products{
         this(null,null,0,0,0);
     }
     public DVDs(String title,String category,double duration,double weight,double price){
-        super(weight, price);
+        super(weight, price,"DVD");
         this.title = title;
         this.category = category;
         this.duration = duration;
@@ -27,4 +27,6 @@ public class DVDs extends Products{
         return this.duration;
     }
 //    methods
+
+
 }
