@@ -4,17 +4,13 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3311f58-3580-4df9-ac8d-c424e70d76e3" name="Changes" comment="inizio progetto">
-      <change afterPath="$PROJECT_DIR$/src/store/model/DVDs.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/model/PadelRackets.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/model/PadelRacketsDiamond.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/model/PadelRacketsDrop.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/model/PadelRacketsRound.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/model/Products.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/store/model/books.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+    <list default="true" id="a3311f58-3580-4df9-ac8d-c424e70d76e3" name="Changes" comment="creo la gerarchia dei prodotti">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/store/model/modelStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/modelStart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/model/DVDs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/DVDs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/model/PadelRackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/PadelRackets.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/model/PadelRacketsRound.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/PadelRacketsRound.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/model/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/Products.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/store/model/books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/store/model/Books.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -44,7 +40,8 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "last_opened_file_path": "C:/Dev/Java/Projects/JavaBase/OOExamples"
   }
 }]]></component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -63,11 +60,19 @@
       <option name="project" value="LOCAL" />
       <updated>1676044287891</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="creo la gerarchia dei prodotti">
+      <created>1676045704591</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1676045704591</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inizio progetto" />
-    <option name="LAST_COMMIT_MESSAGE" value="inizio progetto" />
+    <MESSAGE value="creo la gerarchia dei prodotti" />
+    <option name="LAST_COMMIT_MESSAGE" value="creo la gerarchia dei prodotti" />
   </component>
 </project>
