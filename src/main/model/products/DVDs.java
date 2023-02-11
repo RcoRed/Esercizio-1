@@ -10,11 +10,11 @@ public class DVDs extends Products{
     public DVDs(){
         this(null,null,0,0,0);
     }
-    public DVDs(String title,String category,double duration,double weight,double price){
-        super(weight, price,"DVD");
+    public DVDs(String title,String category,double durationMinutes,double weightKG,double price){
+        super(weightKG, price,"DVD");
         this.title = title;
         this.category = category;
-        this.duration = duration;
+        this.duration = durationMinutes;
     }
 //    getter
     public String getTitle(){

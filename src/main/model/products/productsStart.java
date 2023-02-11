@@ -3,9 +3,10 @@ package main.model.products;
 import main.model.store.Store;
 
 public class productsStart {
-    static Store store = new Store();
     public static void main(String[] args) {
 
+        Store store1 = new Store();
+        //riempimento
         Books b1 = new Books("leirhfgreiujgh","titolo","fantasy",500,5,30);
         System.out.println("aggiunti!");
         System.out.println(b1.getTitle());
@@ -27,11 +28,12 @@ public class productsStart {
         System.out.println(p1.getType());
         System.out.println(p1.getWeight());
 
-        System.out.println("in totale ci sono " + store.numberOfProducts() + " prodotti");
-        System.out.println("il peso totale dei prodotti è " + store.totalWeight() + " kg");
-        System.out.println("il più costoso vale " + store.mostExpensive() + "$");
-        System.out.println("sono presenti " + store.countBooksCategoryFantasy() + " libri Fantasy");
-        store.printArrayLists(store.SearchPadelRacketsDrop());
+        //prova dei metodi creati
+        System.out.println("in totale ci sono " + store1.numberOfProducts() + " prodotti");
+        System.out.println("il peso totale dei prodotti è " + store1.totalWeight() + " kg");
+        System.out.println("il più costoso vale " + store1.mostExpensive() + "$");
+        System.out.println("sono presenti " + store1.countBooksCategoryFantasy() + " libri Fantasy");
+        store1.printArrayLists(store1.SearchPadelRacketsDrop());
 
     }
 }

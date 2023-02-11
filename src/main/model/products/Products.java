@@ -13,8 +13,8 @@ public abstract class Products {
     public Products(){
 
     }
-    public Products(double weight,double price,String productType){
-        this.weight=weight;
+    public Products(double weightKG,double price,String productType){
+        this.weight=weightKG;
         this.price=price;
         this.productType=productType;
         store.AddToList(this);

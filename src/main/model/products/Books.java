@@ -13,8 +13,8 @@ public class Books extends Products{
     public Books(){
         this(null,null,null,0,0,0);
     }
-    public Books(String ISBN,String title,String category,int pages,double weight,double price){
-        super(weight, price,"book");
+    public Books(String ISBN,String title,String category,int pages,double weightKG,double price){
+        super(weightKG, price,"book");
         this.ISBN = ISBN;
         this.title = title;
         this.category = category;
