@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3311f58-3580-4df9-ac8d-c424e70d76e3" name="Changes" comment="implemento le ultime due richieste, elimini definitivamente le tre classi tipo di padel, riordino i package e i file del progetto">
+    <list default="true" id="a3311f58-3580-4df9-ac8d-c424e70d76e3" name="Changes" comment="Correggo qualche Bug, integro il programma funzionante nel main, consegno l'esercizio">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/products/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/products/Books.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/model/products/DVDs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/products/DVDs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/model/products/PadelRackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/products/PadelRackets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/model/products/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/products/Products.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/model/products/productsStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/products/productsStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/model/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/store/StoreStart.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,7 +142,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676070110244</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Correggo qualche Bug, integro il programma funzionante nel main, consegno l'esercizio">
+      <created>1676130546709</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1676130546709</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -152,6 +158,7 @@
     <MESSAGE value="aggiungo i vari costruttori e i getter per ogni classe" />
     <MESSAGE value="creo Store e implemento sia il suo arrayList che i primi 4 metodi dell'esercizio" />
     <MESSAGE value="implemento le ultime due richieste, elimini definitivamente le tre classi tipo di padel, riordino i package e i file del progetto" />
-    <option name="LAST_COMMIT_MESSAGE" value="implemento le ultime due richieste, elimini definitivamente le tre classi tipo di padel, riordino i package e i file del progetto" />
+    <MESSAGE value="Correggo qualche Bug, integro il programma funzionante nel main, consegno l'esercizio" />
+    <option name="LAST_COMMIT_MESSAGE" value="Correggo qualche Bug, integro il programma funzionante nel main, consegno l'esercizio" />
   </component>
 </project>

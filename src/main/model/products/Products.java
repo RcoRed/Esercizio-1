@@ -31,6 +31,4 @@ public abstract class Products {
     }
 //    methods
 
-
-
 }
