@@ -4,11 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3311f58-3580-4df9-ac8d-c424e70d76e3" name="Changes" comment="piccolo refactoring">
+    <list default="true" id="a3311f58-3580-4df9-ac8d-c424e70d76e3" name="Changes" comment="rinomino le classi al SINGOLARE">
+      <change afterPath="$PROJECT_DIR$/src/main/model/products/TipoRacchetta.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/products/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/products/Book.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/store/Store.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -19,6 +17,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Enum" />
       </list>
     </option>
   </component>
@@ -146,7 +145,14 @@
       <option name="project" value="LOCAL" />
       <updated>1676277123786</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="rinomino le classi al SINGOLARE">
+      <created>1676281343534</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1676281343534</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -167,6 +173,7 @@
     <MESSAGE value="creo Store e implemento sia il suo arrayList che i primi 4 metodi dell'esercizio" />
     <MESSAGE value="implemento le ultime due richieste, elimini definitivamente le tre classi tipo di padel, riordino i package e i file del progetto" />
     <MESSAGE value="piccolo refactoring" />
-    <option name="LAST_COMMIT_MESSAGE" value="piccolo refactoring" />
+    <MESSAGE value="rinomino le classi al SINGOLARE" />
+    <option name="LAST_COMMIT_MESSAGE" value="rinomino le classi al SINGOLARE" />
   </component>
 </project>
