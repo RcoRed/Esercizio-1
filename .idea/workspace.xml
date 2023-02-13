@@ -4,15 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="a3311f58-3580-4df9-ac8d-c424e70d76e3" name="Changes" comment="implemento le ultime due richieste, elimini definitivamente le tre classi tipo di padel, riordino i package e i file del progetto">
+    <list default="true" id="a3311f58-3580-4df9-ac8d-c424e70d76e3" name="Changes" comment="ripristino l'ultimo funzionante">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/products/Books.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/products/Books.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/model/products/DVDs.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/products/DVDs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/model/products/PadelRackets.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/products/PadelRackets.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/model/products/Products.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/products/Products.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/model/products/productsStart.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/products/productsStart.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/model/store/Store.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/model/store/Store.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/model/store/StoreStart.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -145,6 +144,17 @@
     </task>
     <option name="localTasksCounter" value="6" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="inizio progetto" />

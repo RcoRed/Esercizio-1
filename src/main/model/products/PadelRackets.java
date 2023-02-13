@@ -26,5 +26,4 @@ public class PadelRackets extends Products{
     }
 //    methods
 
-
 }

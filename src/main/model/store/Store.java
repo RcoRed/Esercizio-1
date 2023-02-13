@@ -6,7 +6,7 @@ import java.util.ArrayList;
 
 public class Store {
 //    instance variables
-    private static ArrayList<Products> productsList;
+    private static ArrayList<Products> productsList = new ArrayList<>();;
     private static ArrayList<Products> temp;
     private static Products product;
     private static Books book;
@@ -14,7 +14,7 @@ public class Store {
     private static PadelRackets padel;
 //    constructors
     public Store(){
-        this.productsList = new ArrayList<>();
+
     }
 
 //    getter
@@ -128,7 +128,5 @@ public class Store {
             System.out.println(padel.getPrice() + "€");
         }
     }
-
-
 
 }
