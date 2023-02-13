@@ -6,12 +6,12 @@ import java.util.ArrayList;
 
 public class Store {
 //    instance variables
-    private static ArrayList<Products> productsList = new ArrayList<>();;
-    private static ArrayList<Products> temp;
-    private static Products product;
-    private static Books book;
-    private static DVDs dvd;
-    private static PadelRackets padel;
+    private static ArrayList<Product> productsList = new ArrayList<>();;
+    private static ArrayList<Product> temp;
+    private static Product product;
+    private static Book book;
+    private static Dvd dvd;
+    private static PadelRacket padel;
 //    constructors
     public Store(){
 
@@ -23,7 +23,7 @@ public class Store {
     }
 
 //    methods
-    public void AddToList(Products product){
+    public void AddToList(Product product){
         productsList.add(product);
     }
 
@@ -35,16 +35,16 @@ public class Store {
     //3b richiesta
     public double totalWeight(){
         double total=0;
-        for (Products p:productsList){
+        for (Product p:productsList){
             total += p.getWeight();
         }
         return total;
     }
 
     //3c richiesta
-    public Products mostExpensive(){
+    public Product mostExpensive(){
         double expensive=0;
-        for (Products p:productsList){
+        for (Product p:productsList){
             if (p.getPrice() > expensive) {
                 expensive = p.getPrice();
                 product = p;
@@ -59,11 +59,11 @@ public class Store {
     }
     public int countBooksCategory(String category){
         int counter=0;
-        for (Products p:productsList){
+        for (Product p:productsList){
             //controllo di che tipo sia
             if (p.getProductType().equalsIgnoreCase("book")){
                 //assegno il tipo corretto CASTANDOLO!
-                book=(Books) p;
+                book=(Book) p;
                 if (book.getCategory().equalsIgnoreCase(category)){
                     counter++;
                 }
@@ -75,11 +75,11 @@ public class Store {
     //3f richiesta
     public ArrayList SearchPadelRacketsDrop(){
         temp = new ArrayList<>();
-        for (Products p:productsList){
+        for (Product p:productsList){
             //controllo di che tipo sia
             if (p.getProductType().equalsIgnoreCase("padelrackets")){
                 //assegno il tipo corretto CASTANDOLO!
-                padel=(PadelRackets) p;
+                padel=(PadelRacket) p;
                 if (padel.getType().equalsIgnoreCase("goccia") && p.getPrice()>100){
                     temp.add(p);
                 }
@@ -88,10 +88,10 @@ public class Store {
         return temp;
     }
 
-    public void printArrayLists(ArrayList<Products> arrayList){
-        for (Products a:arrayList){
+    public void printArrayLists(ArrayList<Product> arrayList){
+        for (Product a:arrayList){
             if (a.getProductType().equalsIgnoreCase("padelrackets")){
-                padel=(PadelRackets) a;
+                padel=(PadelRacket) a;
                 System.out.println(padel.getBrand());
                 System.out.println(padel.getType());
                 System.out.println(padel.getWeight());
@@ -101,9 +101,9 @@ public class Store {
         }
     }
 
-    public void printProduct(Products p){
+    public void printProduct(Product p){
         if (p.getProductType().equalsIgnoreCase("book")){
-            book = (Books) p;
+            book = (Book) p;
             System.out.println(book.getProductType());
             System.out.println(book.getISBN());
             System.out.println(book.getTitle());
@@ -112,7 +112,7 @@ public class Store {
             System.out.println(book.getWeight() + "Kg");
             System.out.println(book.getPrice() + "€");
         } else if (p.getProductType().equalsIgnoreCase("dvd")) {
-            dvd = (DVDs) p;
+            dvd = (Dvd) p;
             System.out.println(dvd.getProductType());
             System.out.println(dvd.getTitle());
             System.out.println(dvd.getCategory());
@@ -120,7 +120,7 @@ public class Store {
             System.out.println(dvd.getWeight());
             System.out.println(dvd.getPrice());
         } else if (p.getProductType().equalsIgnoreCase("padelrackets")) {
-            padel = (PadelRackets) p;
+            padel = (PadelRacket) p;
             System.out.println(padel.getProductType());
             System.out.println(padel.getBrand());
             System.out.println(padel.getType());

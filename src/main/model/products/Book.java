@@ -1,19 +1,19 @@
 package main.model.products;
 
-public class Books extends Products{
+public class Book extends Product {
 //    instance variables
     public final String ISBN;
     private String title;
     private String category;
     private int pages;
 
-    Books b;
+    Book b;
 
 //    constructors
-    public Books(){
+    public Book(){
         this(null,null,null,0,0,0);
     }
-    public Books(String ISBN,String title,String category,int pages,double weightKG,double price){
+    public Book(String ISBN, String title, String category, int pages, double weightKG, double price){
         super(weightKG, price,"book");
         this.ISBN = ISBN;
         this.title = title;

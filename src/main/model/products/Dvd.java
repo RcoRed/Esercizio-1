@@ -1,16 +1,16 @@
 package main.model.products;
 
-public class DVDs extends Products{
+public class Dvd extends Product {
 //    instance variables
     private String title;
     private String category;
     private double duration;
 
 //    constructors
-    public DVDs(){
+    public Dvd(){
         this(null,null,0,0,0);
     }
-    public DVDs(String title,String category,double durationMinutes,double weightKG,double price){
+    public Dvd(String title, String category, double durationMinutes, double weightKG, double price){
         super(weightKG, price,"DVD");
         this.title = title;
         this.category = category;

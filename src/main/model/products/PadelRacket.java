@@ -1,15 +1,15 @@
 package main.model.products;
 
-public class PadelRackets extends Products{
+public class PadelRacket extends Product {
 //    instance variables
     private String brand;
     private String type;
 
 //    constructors
-    public PadelRackets(){
+    public PadelRacket(){
         this(null,null,0,0);
     }
-    public PadelRackets(String brand,String type,double weight,double price){
+    public PadelRacket(String brand, String type, double weight, double price){
         super(weight, price,"padelRackets");
         this.brand = brand;
         this.type = type;

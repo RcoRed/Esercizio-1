@@ -2,7 +2,7 @@ package main.model.products;
 
 import main.model.store.Store;
 
-public abstract class Products {
+public abstract class Product {
 //    instance variables
     static Store store = new Store();
     private double weight;
@@ -10,10 +10,10 @@ public abstract class Products {
     private String productType;
 
 //    constructors
-    public Products(){
+    public Product(){
 
     }
-    public Products(double weightKG,double price,String productType){
+    public Product(double weightKG, double price, String productType){
         this.weight=weightKG;
         this.price=price;
         this.productType=productType;
